@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="joinstore.it.testhardness.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="1"
+        android:title="SCAN Low En" />
+
+    <item
+        android:id="@+id/action_scan_classic"
+        android:orderInCategory="1"
+        android:title="SCAN CLASSIC" />
+
+    <item
+        android:id="@+id/action_query"
+        android:orderInCategory="1"
+        android:title="QUERY PAIRED" />
+
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="1"
+        android:title="CLEAR LIST" />
+</menu>
